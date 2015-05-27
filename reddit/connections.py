@@ -65,7 +65,4 @@ class Client():
 
         response = requests.get(uri,headers=headers)
 
-
-        print response.headers
-
         return response.json()
